@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="Formularios" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Completar formularios</h2>
+    <form action="">
+        <p>
+            <label for="">nombre</label>
+            <input type="text"/>
+        </p>
+        <p>
+            <input type="text" placeholder="Apellido">
+        </p>
+        <p>
+            <label for="">contraseña</label>
+            <input type="password">
+        </p>
+
+        <p>
+            <label for="">sexo</label>
+            <ul>    
+                <li>
+                    <input type="radio" value="mujer" name="sexo">
+                    <label for="">mujer</label>
+                </li>
+                <li>
+                    <input type="radio" value="hombre" name="sexo">
+                    <label for="">hombre</label>
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            <label>hobbies</label>
+            <ul>    
+                <li>
+                    <input type="checkbox" value="cantar" name="hobbies[]">
+                    <label for="">cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox" value="correr" name="hobbies[]">
+                    <label for="">correr</label>
+                </li>
+                <li>
+                    <input type="checkbox" value="nadar" name="hobbies[]">
+                    <label for="">nadar</label>
+                </li>
+                <li>
+                    <input type="checkbox" value="cortar las calles" name="hobbies[]">
+                    <label for="">cortar las calles</label>
+                </li>
+            </ul>
+        </p>
+
+        <p> <label for="">estudios</label>
+            <select name="" id="">
+                <option value="primarios">primarios</option>
+                <option value="secundario">secundario</option>
+                <option value="terciario">terciario</option>
+                <option value="universitario">universitario</option>
+                <option value="Escuela? Ni ahí, perri">Escuela? Ni ahí, perri</option>
+                <option value="Soy peronista">Soy peronista</option>
+                <option value="No me importa, cobro en pesos">No me importa, cobro en pesos</option>
+                <option value="cuaso">cuaso</option>
+            </select>
+        </p>
+        <p>
+            <label for="">comentarios</label>
+            <textarea name=""></textarea>
+
+        </p>
+        <p>
+            <label for="">fecha de nacimiento</label>
+            <input type="date">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="borrar">
+        </p>
+
+
+    </form>
+    
+</body>
+</html>
