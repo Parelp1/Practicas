@@ -2,8 +2,9 @@
     background-color: gray;
     height: 700px;
     display: flex;
-    align-items: flex-start;
     align-items: center;
+    align-items: center;
+    
     
 }
 .item{
