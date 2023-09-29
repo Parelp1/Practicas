@@ -1,0 +1,81 @@
+body{
+    background-color: #332f29;  
+    color: white;
+}
+.cotenedor{
+    max-width: 960px;   
+    margin: 0 auto;
+}
+.holder{
+    display: flex;
+}
+
+nav{
+    background-color: red;
+    width: 30%;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: dashed;
+}
+
+aside{
+    width: 30%;
+    background-color: #1abc9c;
+
+}
+
+footer{
+    background-color: #523100;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+}
+
+@media screen and (max-width:480px){
+    h2{
+        color: black;
+    }
+
+    p{
+        color: black;
+    }
+
+    body{
+        background-color: antiquewhite;
+    }
+
+    header{
+    text-align: center;
+    }
+
+    .holder{
+        flex-wrap: wrap;
+    }
+
+    nav{
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+
+    nav ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main{
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+}
+
