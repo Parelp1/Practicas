@@ -2,6 +2,8 @@
     padding: 20px;
     border-radius: 15px;
     border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .alternar{
@@ -11,4 +13,5 @@
 
 .alternar.activo{
     background-color: blue;
+    color: aliceblue;
 }

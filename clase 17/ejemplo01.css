@@ -1,0 +1,16 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+
+}
+
+.rojo{
+    background-color: brown;
+}
+
+.borde{
+    border: 2px solid black;
+    
+    
+}
